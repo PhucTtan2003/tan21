@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Điền Form</title>
+<style>
+    .title{
+        text-align: center;
+    }
+</style>
+</head>
+    <body>
+        <table width="1000" border="2" cellpadding="5" align="center">
+           <tr>
+            <td colspan="2" class="title">Đăng ký thành viên bóng đá</td>
+           </tr>
+           <tr>
+            <td style="width:35%"><label for="name">Họ và tên</label></td>
+            <td><input type="text" id="name" name="name" required><br><br></td>
+           </tr>
+           <tr>
+            <td><label for="user">Tên đăng nhập</label></td>
+            <td><input type="text" id="user" user="user" required><br><br></td>
+           </tr>
+           <tr>
+            <td><label for="pass">Mật khẩu</label></td>
+            <td><input type="text" id="pass" pass="pass" require><br><br></td>
+           </tr>
+           <tr>
+            <td><label for="repass">Nhập lại mật khẩu</label></td>
+            <td><input type="text" id="repass" repass="repass" require></td>
+           </tr>
+           <tr>
+            <td><label for="sex">Giới tính</label></td>
+            <td><input type="radio" id="sex" value"1">Nam<input type="radio" id="sex" value"2">Nữ</td>
+           </tr>
+           <tr>
+            <td><label for="pos">Vị trí</label></td>
+            <td><input type="radio" id="pos" value"1">Tiền đạo<input type="radio" id="pos" value"2">Tiền vệ<input type="radio" id="pos" value"3">Hậu vệ<input type="radio" id="pos" value"4">Thủ môn</td>
+           </tr>
+           <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="text" id="email" email="email" require><br><br></td>
+           </tr>
+           <tr style="height : 300px">
+            <td><label for="Fav">Sở thích</label></td>
+            <td style="height:200px"><input type="text" id="Fav" Fav="Fav" require><br><br></td>
+           </tr>
+           
+           <tr>
+            <td class="tdLabel"><label for="register_country" class="label">Select Country:</label></td>
+            <td>
+              <select name="nation" id="register_nation" style="width:160px">
+                <option value="Kinh">Kinh</option>
+                <option value="Khơ me">Khơ me</option>
+                <option value="Tày">Tày</option>
+                <option value="other">other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="title"><input type="Button"value="Đăng ký"></td>
+           </tr>
+          <tr>
+        </table>
+    </body>
+</html>
